@@ -69,6 +69,7 @@
 	{
 		display: inline-block;
 		border: 1px solid rgba(0,0,0,.1);
+        border-radius: 20px;
 	}
 	
 	.image img
@@ -102,7 +103,9 @@
 		width: auto;
 	}
 
-
+    #img-footer {
+        text-align: center;
+    }
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
@@ -406,6 +409,8 @@
 
 	.welcome p {
 		text-align: justify;
+        width: 70%;
+        margin: 0 auto;
 	}
 	
 	.welcome a,
@@ -467,6 +472,7 @@
 		overflow: hidden;
 		padding: 1em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
+        background-color: black;
 	}
 
 	#copyright p
@@ -481,34 +487,7 @@
 	{
 		letter-spacing: 0.20em;
 		text-decoration: none;
-		color: #000000;
-	}
-
-/*********************************************************************************/
-/* Newsletter                                                                    */
-/*********************************************************************************/
-
-	#newsletter
-	{
-		overflow: hidden;
-		padding: 4em 0em 8em 0em;
-		text-align: center;
-	}
-
-	#newsletter .title
-	{
-		margin-bottom: 4em;
-	}
-
-	#newsletter .title h2
-	{
-		color: #000000;
-	}
-
-	#newsletter .content
-	{
-		width: 600px;
-		margin: 0px auto;
+		color: white;
 	}
 
 /*********************************************************************************/
@@ -636,6 +615,12 @@
 	}
 
 	#team-wrapper img {
-		width: 70%
-
+		width: 70%;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
 	}
+
+    iframe {
+        border-radius: 20px;
+    }
