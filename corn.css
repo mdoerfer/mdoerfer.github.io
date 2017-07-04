@@ -324,7 +324,7 @@
 	{
 		overflow: hidden;
 		background: url(images/img02.jpg) no-repeat;
-		background-size: 100% 100%;
+		background-size: 100% auto;
 	}
 
 	#header
@@ -367,51 +367,6 @@
 		color: rgba(0,0,0,0.8);
 	}
 	
-	
-
-/*********************************************************************************/
-/* Menu                                                                          */
-/*********************************************************************************/
-
-	#menu
-	{
-	}
-	
-	#menu ul
-	{
-		text-align: center;
-	}
-	
-	#menu li
-	{
-		display: inline-block;
-	}
-	
-	#menu li a, #menu li span
-	{
-		display: inline-block;
-		margin-left: 0.50em;
-		padding: 4em 1.5em 1em 1.5em;
-		letter-spacing: 0.10em;
-		text-decoration: none;
-		font-size: 0.90em;
-		text-transform: uppercase;
-		outline: 0;
-		color: #333;
-	}
-	
-	#menu li:hover a, #menu li.active a, #menu li.active span
-	{
-	}
-	
-	#menu .current_page_item a
-	{
-		background: #ed1a15;
-		border-bottom: 4px solid #000;
-		color: #FFF;
-		border-radius: 0px 0px 20px 20px;
-	}
-	
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -452,7 +407,7 @@
 		border-left: 30px solid rgba(255,255,255,.4);
 		border-right: 30px solid rgba(255,255,255,.4);
 		background: url(images/banner.png) no-repeat;
-		background-size: 100% 100%;
+		background-size: 100% auto;
 	}
 	
 	#banner img
