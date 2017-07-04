@@ -405,7 +405,7 @@
 	}
 
 	.welcome p {
-		text-align: left;
+		text-align: justify;
 	}
 	
 	.welcome a,
@@ -566,7 +566,7 @@
 	
 	.column3
 	{
-		float: right;
+		float: left;
 	}
 
 /*********************************************************************************/
@@ -619,9 +619,10 @@
 	}
 
 	.figures img {
-		width: 150px;
+		width: 11%;
 		height: auto;
-		margin-top: 25%;
+		position: absolute;
+		top: 60%;
 	}
 
 	#left-corn {
@@ -631,7 +632,7 @@
 
 	#right-corn {
 		float: right;
-		margin-right: 4%;
+		margin-right: 15%;
 	}
 
 	#team-wrapper img {
