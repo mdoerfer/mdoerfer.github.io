@@ -325,7 +325,7 @@
 		overflow: hidden;
 		background: url(images/img02.jpg) no-repeat;
 		background-size: 100% auto;
-		height: 50%;
+		height: 45%;
 		max-height: 70%;
 	}
 
@@ -341,8 +341,11 @@
 	#logo
 	{
 		padding: 5em 0em;
-		text-align: center;
 		z-index: 1;
+		position: absolute;
+		left: 50%;
+		transform: translate(-54%)scale(1.5);
+		top: 2%;
 	}
 	
 	#logo h1
@@ -374,13 +377,21 @@
 /* Banner                                                                        */
 /*********************************************************************************/
 
+	#play-btn {
+		position: absolute;
+		top: 52%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+
 	#banner
 	{
 		overflow: visible;
 		position: absolute;
 		left: 50%;
-		top: 50%;
+		top: 40%;
 		transform: translate(-50%, -50%);
+		height: 14%;
 	}
 	
 	#banner .heading
@@ -412,7 +423,7 @@
 		border: 5px solid #cccccc;
 		border-radius: 20px;
 		background: url(images/banner.png) no-repeat;
-		background-size: 100% auto;
+		background-size: cover;
 	}
 	
 	#banner img
@@ -468,8 +479,8 @@
 		overflow: hidden;
 		border-top: 1px solid rgba(255,255,255,.2);
 		padding: 8em 100px 0em 100px;
-		text-align: center;
 		color: #000000;
+		text-align: center;
 	}
 	
 	.welcome .title
@@ -484,6 +495,11 @@
 	.welcome .title h2
 	{
 		color: #000000;
+
+	}
+
+	.welcome p {
+		text-align: left;
 	}
 	
 	.welcome a,
@@ -687,8 +703,28 @@
 		border-top-color: #292929;
 	}
 
-	.corn
-	{
-		text-align: center;
-		padding: 4em 0em 4em 0em;
+	#figures-wrapper {
+		width: 100%;
+		height: 6%;
+	}
+
+	.figures img {
+		width: 150px;
+		height: auto;
+		margin-top: 25%;
+	}
+
+	#left-corn {
+		float: left;
+		margin-left: 4%;
+	}
+
+	#right-corn {
+		float: right;
+		margin-right: 4%;
+	}
+
+	#team-wrapper img {
+		width: 70%
+
 	}
