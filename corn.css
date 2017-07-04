@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #f9f9ee;
+		background: #ffffff;
 		font-family: 'Open Sans';
 		font-size: 12pt;
 		color: #000000;
@@ -56,7 +56,7 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		width: 70%;
 	}
 	
 
@@ -325,6 +325,8 @@
 		overflow: hidden;
 		background: url(images/img02.jpg) no-repeat;
 		background-size: 100% auto;
+		height: 50%;
+		max-height: 70%;
 	}
 
 	#header
@@ -374,7 +376,11 @@
 
 	#banner
 	{
-		overflow: hidden;
+		overflow: visible;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 	}
 	
 	#banner .heading
@@ -403,9 +409,8 @@
 	{
 		overflow: hidden;
 		padding: 8em 0em;
-		border-top: 30px solid rgba(255,255,255,.4);
-		border-left: 30px solid rgba(255,255,255,.4);
-		border-right: 30px solid rgba(255,255,255,.4);
+		border: 5px solid #cccccc;
+		border-radius: 20px;
 		background: url(images/banner.png) no-repeat;
 		background-size: 100% auto;
 	}
@@ -442,6 +447,8 @@
 	{
 		overflow: hidden;
 		padding: 0em 0em 0em 0em;
+		position: relative;
+		margin-top: 10%;
 	}
 	
 	#wrapper4
@@ -619,21 +626,19 @@
 
 	.column1,
 	.column2,
-	.column3,
-	.column4
+	.column3
 	{
-		width: 282px;
+		width: 30%;
 	}
 	
 	.column1,
-	.column2,
-	.column3
+	.column2
 	{
 		float: left;
-		margin-right: 24px;
+		margin-right: 3%;
 	}
 	
-	.column4
+	.column3
 	{
 		float: right;
 	}
